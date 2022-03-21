@@ -12,20 +12,18 @@ An introduction to Python style guides and why and how they are used, using the 
 
 Coding style conventions help you to make sure that your code is consistently formatted and readable by yourself and others.
 
-:star: **Whole Group Discussion**
+
+👥 **Whole Group Discussion**
 
 When you are trying to understand a piece of code, what do you find makes it easier or more difficult?
 <details>
   <summary>
         Ideas
   </summary>
-  <i>make a list based on suggestions</i>
+  make a list based on suggestions
+</details>  
 
-
-</details>
-
-
-:star: **Small Group Activity**
+👥 **Small Group Activity**
 
 The following two code snippets produce the same output. Which is more readable? Which features make one snippet more readable than the other?
 
@@ -93,6 +91,8 @@ Code snippets 1 and 2 produce exactly the same output, but it is much easier to 
 * Bigger indents in snippet 2
 * All the variables used inside the function are provided as arguments
 * Strings are formatted more clearly
+
+
 </details>
 
 ## Style Guides
@@ -108,26 +108,28 @@ A style guide is a set of conventions agreed upon by a group or community to ens
 
 ## Style consistency
 
-:star: **Whole Group Discussion**
+
+👥 **Whole Group Discussion**
 
 What will be the output for `print (a)`, `print (b)` and `print(c())` in the code snippet below?
 
 [Code snippet 3](../../code_snippets/wrc_style_consistency.py)
+```python
+a = list()
+a.append(1)
+a.extend([2, 3])
 
-    a = list()
-    a.append(1)
-    a.extend([2, 3])
-    
-    b = []
-    b = b + [1]
-    b += [2, 3]
-    
-    def c():
-        return ([1, 2, 3])
-    
-    print(a)
-    print (b)
-    print (c())
+b = []
+b = b + [1]
+b += [2, 3]
+
+def c():
+    return ([1, 2, 3])
+
+print(a)
+print (b)
+print (c())
+```
 
 Using a consistent style:
 * Makes it quicker and easier to understand your code
@@ -135,7 +137,8 @@ Using a consistent style:
 * Saves "mental energy" when reading the code
 * Makes others more likely to use and develop your code
 
-:star: **Whole Group Discussion**
+
+👥 **Whole Group Discussion**
 
 Put the following in order of importance
 
@@ -150,10 +153,12 @@ Put the following in order of importance
 
 1. Code within a module or function should have a consistent style
 
+
 2. Code within a project should use a consistent style
+
 
 3. Code should be consistent with a style guide
 
-</details>
+</details>  
 
 
