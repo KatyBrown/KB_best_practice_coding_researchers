@@ -12,7 +12,7 @@ An introduction to Python style guides and why and how they are used, using the 
 
 Coding style conventions help you to make sure that your code is consistently formatted and readable by yourself and others.
 
-**Whole Group Discussion** 
+:star: **Whole Group Discussion**
 
 When you are trying to understand a piece of code, what do you find makes it easier or more difficult?
 <details>
@@ -20,34 +20,35 @@ When you are trying to understand a piece of code, what do you find makes it eas
         Ideas
   </summary>
   <i>make a list based on suggestions</i>
-<br>
+
+
 </details>
 
 
-**Small Group Activity**
+:star: **Small Group Activity**
 
 The following two code snippets produce the same output. Which is more readable? Which features make one snippet more readable than the other?
 
 [Code snippet 1](../../code_snippets/wrc_python_style_guides_example1_bad.py)
+```python
+q=' ' 
+x='\n'
+def f(s1,s2):
+ s3=str(s1)
+ s4=str(s2)
+ 
+ 
+ 
+ s11=s2/s1
+ s12=round(s11,2)
+ s11=str(s12)
+ print('number of entries ='+q+s3+x+'number of winners='+q+s4+x+'% success ='+q+s11)
 
-	q=' ' 
-	x='\n'
-	def f(s1,s2):
-	 s3=str(s1)
-	 s4=str(s2)
-	 
-	 
-	 
-	 s11=s2/s1
-	 s12=round(s11,2)
-	 s11=str(s12)
-	 print('number of entries ='+q+s3+x+'number of winners='+q+s4+x+'% success ='+q+s11)
+r=12
+r1=5
 
-	r=12
-	r1=5
-
-	f(r, r1)
-
+f(r, r1)
+```
 
 
 Output:
@@ -57,20 +58,21 @@ Output:
 	% success = 0.41
 
 [Code snippet 2](../../code_snippets/wrc_python_style_guides_example1_better.py)
+```python
+def print_values(n_entries, n_winners):
+    '''
+    Print the number of entries and winners and calculate and print
+    the probability of success.
+    '''
+    print ('number of entries = %i' % (n_entries))
+    print ('number of winners = %i' % (n_winners))
+    print ("%% success = %.2f" % (n_winners / n_entries))
 
-	def print_values(n_entries, n_winners):
-	    '''
-	    Print the number of entries and winners and calculate and print
-	    the probability of success.
-	    '''
-	    print ('number of entries = %i' % (n_entries))
-	    print ('number of winners = %i' % (n_winners))
-	    print ("%% success = %.2f" % (n_winners / n_entries))
 
-
-	entries = 12
-	winners = 5
-	print_values(entries, winners)
+entries = 12
+winners = 5
+print_values(entries, winners)
+```
 
 Output:
 
@@ -97,17 +99,16 @@ Code snippets 1 and 2 produce exactly the same output, but it is much easier to 
 
 There are guidelines available to format code in different languages known as **style guides**. 
 
-Code is read much more often than it is written.
 
-Style guidelines are intended to improve the readability of code and make it consistent across the wide spectrum of Python code.
+Code is read much more often than it is written. Style guidelines are intended to improve the readability of code and make it consistent across the wide spectrum of Python code.
 
-A style guide is a set of conventions agreed upon by a group or community to ensure that all the code produced by the group is similar in style.
 
-It is similar to using correct grammar, spelling and punctuation when writing prose - it's usually not essential, but it can make things clearer, more accessible and more professional.
+A style guide is a set of conventions agreed upon by a group or community to ensure that all the code produced by the group is similar in style.  It is similar to using correct grammar, spelling and punctuation when writing prose - it's usually not essential, but it can make things clearer, more accessible and more professional.
+
 
 ## Style consistency
 
-**Whole Group Discussion**
+:star: **Whole Group Discussion**
 
 What will be the output for `print (a)`, `print (b)` and `print(c())` in the code snippet below?
 
@@ -134,7 +135,7 @@ Using a consistent style:
 * Saves "mental energy" when reading the code
 * Makes others more likely to use and develop your code
 
-**Whole Group Discussion**
+:star: **Whole Group Discussion**
 
 Put the following in order of importance
 
@@ -152,6 +153,7 @@ Put the following in order of importance
 2. Code within a project should use a consistent style
 
 3. Code should be consistent with a style guide
+
 </details>
 
 
