@@ -9,6 +9,7 @@
 **Python Style Guides**
 
 [Introduction to style guides](lessons/writing_readable_code/wrc_python_style_guides_1_intro.md)
+
 [Pep8 Specifics](lessons/writing_readable_code/wrc_python_style_guides_2_pep8_specifics.md)
 
 

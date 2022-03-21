@@ -20,6 +20,7 @@ When you are trying to understand a piece of code, what do you find makes it eas
         Ideas
   </summary>
   <i>make a list based on suggestions</i>
+<br>
 </details>
 
 
@@ -85,11 +86,11 @@ Output:
 
 Code snippets 1 and 2 produce exactly the same output, but it is much easier to read snippet 2 and to understand what the programmer was trying to do.
 
-- Snippet 2 has some documentation
-- Variable names and function name are more informative in snippet 2
-- Bigger indents in snippet 2
-- All the variables used inside the function are provided as arguments
-- Strings are formatted more clearly
+* Snippet 2 has some documentation
+* Variable names and function name are more informative in snippet 2
+* Bigger indents in snippet 2
+* All the variables used inside the function are provided as arguments
+* Strings are formatted more clearly
 </details>
 
 ## Style Guides
@@ -146,9 +147,9 @@ Put the following in order of importance
         Solution
     </summary>
 
-- 1 - Code within a module or function should have a consistent style
-- 2 - Code within a project should use a consistent style
-- 3 - Code should be consistent with a style guide
+1. Code within a module or function should have a consistent style
+2. Code within a project should use a consistent style
+3. Code should be consistent with a style guide
 </details>
 
 
