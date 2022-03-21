@@ -148,7 +148,9 @@ Put the following in order of importance
     </summary>
 
 1. Code within a module or function should have a consistent style
+
 2. Code within a project should use a consistent style
+
 3. Code should be consistent with a style guide
 </details>
 
