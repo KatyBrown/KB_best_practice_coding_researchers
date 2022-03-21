@@ -1,12 +1,11 @@
-# Best Practice in Coding for Researchers
 
-## Writing Readable Code
+# Writing Readable Code
 
-**Code Organisation**
+## Code Organisation
 
 [Introduction to code organisation](lessons/writing_readable_code/wrc_code_organisation_1_intro.md)
 
-**Python Style Guides**
+## Python Style Guides
 
 [Introduction to style guides](lessons/writing_readable_code/wrc_python_style_guides_1_intro.md)
 
