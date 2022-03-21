@@ -17,12 +17,12 @@ An introduction to Python style guides and why and how they are used, using the 
 Coding style conventions help you to make sure that your code is consistently formatted and readable by yourself and others.
 
 
-#### 👥 Class Discussion
+#### 💬 Class Discussion
 
 When you are trying to understand a piece of code, what do you find makes it easier or more difficult?
 
 
-####👥 Small Group Activity
+#### 👥 Small Group Activity
 
 The following two code snippets produce the same output. Which is more readable? Which features make one snippet more readable than the other?
 
@@ -108,7 +108,7 @@ A style guide is a set of conventions agreed upon by a group or community to ens
 ## Style consistency
 
 
-#### 👥 Class Discussion
+#### 💬 Class Discussion
 
 What will be the output for `print (a)`, `print (b)` and `print(c())` in the code snippet below?
 
@@ -137,7 +137,7 @@ Using a consistent style:
 * Makes others more likely to use and develop your code
 
 
-#### 👥 Class Discussion
+#### 💬 Class Discussion
 
 Put the following in order of importance
 
@@ -159,6 +159,10 @@ Put the following in order of importance
 3. Code should be consistent with a style guide 
 
 </details>
+
+Different groups use different style guides and project or group specific guidelines should take precedent over the pep8 conventions.
+
+[Next Lesson: Pep8 Specifics](wrc_python_style_guides_2_pep8_specifics.md)
 
 
 *Lesson adapted from: https://github.com/carpentries-incubator/python-intermediate-development/blob/gh-pages/_episodes/15-coding-conventions.md*
