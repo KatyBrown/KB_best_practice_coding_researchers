@@ -18,10 +18,11 @@ Coding style conventions help you to make sure that your code is consistently fo
 When you are trying to understand a piece of code, what do you find makes it easier or more difficult?
 <details>
   <summary>
-        Ideas
+        Ideas  
   </summary>
-  make a list based on suggestions
-</details>  
+  make a list based on suggestions  
+</details>
+
 
 👥 **Small Group Activity**
 
