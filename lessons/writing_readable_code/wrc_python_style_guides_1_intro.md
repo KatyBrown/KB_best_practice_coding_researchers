@@ -15,8 +15,9 @@ An introduction to Python style guides and why and how they are used, using the 
 
 [Part 3 - Pep8 Exercise](wrc_python_style_guides_3_pep8_exercise.md)
 
-[Part 4 - Automatic checking](wrc_python_style_guides_4_automatic_checking.md)
+[Part 4 - Automatic Style Checking](wrc_python_style_guides_4_automatic_checking.md)
 
+[Part 5 - Further Reading](wrc_python_style_guides_5_further_reading.md)
 
 ## Why use a coding style guide?
 
@@ -32,7 +33,7 @@ When you are trying to understand a piece of code, what do you find makes it eas
 
 The following two code snippets produce the same output. Which is more readable? Which features make one snippet more readable than the other?
 
-[Code snippet 1](../../code_snippets/wrc_python_style_guides_example1_bad.py)
+[Code snippet](../../code_snippets/wrc_python_style_guides_example1_bad.py)
 ```python
 q=' ' 
 x='\n'
@@ -60,21 +61,22 @@ Output:
 	number of winners= 5
 	% success = 0.41
 
-[Code snippet 2](../../code_snippets/wrc_python_style_guides_example1_better.py)
+[Code snippet](../../code_snippets/wrc_python_style_guides_example1_better.py)
 ```python
 def print_values(n_entries, n_winners):
-    '''
+    """
     Print the number of entries and winners and calculate and print
     the probability of success.
-    '''
-    print ('number of entries = %i' % (n_entries))
-    print ('number of winners = %i' % (n_winners))
-    print ("%% success = %.2f" % (n_winners / n_entries))
+    """
+    print('number of entries = %i' % n_entries)
+    print('number of winners = %i' % n_winners)
+    print("%% success = %.2f" % n_winners / n_entries)
 
 
 entries = 12
 winners = 5
 print_values(entries, winners)
+
 ```
 
 Output:
@@ -118,7 +120,7 @@ A style guide is a set of conventions agreed upon by a group or community to ens
 
 What will be the output for `print (a)`, `print (b)` and `print(c())` in the code snippet below?
 
-[Code snippet 3](../../code_snippets/wrc_style_consistency.py)
+[Code snippet](../../code_snippets/wrc_style_consistency.py)
 ```python
 a = list()
 a.append(1)
@@ -129,7 +131,7 @@ b = b + [1]
 b += [2, 3]
 
 def c():
-    return ([1, 2, 3])
+    return [1, 2, 3]
 
 print(a)
 print (b)
@@ -168,7 +170,7 @@ Put the following in order of importance
 
 Different groups use different style guides and project or group specific guidelines should take precedent over the pep8 conventions.
 
-[Next Lesson: Pep8 Specifics](wrc_python_style_guides_2_pep8_specifics.md)
+[Part 2: Pep8 Specifics](wrc_python_style_guides_2_pep8_specifics.md)
 
 
 *Lesson adapted from: https://github.com/carpentries-incubator/python-intermediate-development/blob/gh-pages/_episodes/15-coding-conventions.md*

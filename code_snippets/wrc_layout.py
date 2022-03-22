@@ -5,11 +5,10 @@ def function1(x, y):
     x += 1
     y += 1
     z = x + y
-    return (z)
+    return z
 
 
 def function2(y):
     print("Function 2 is running")
     y += 5
-    return(y)
-
+    return y

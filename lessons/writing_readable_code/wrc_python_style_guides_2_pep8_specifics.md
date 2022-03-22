@@ -6,7 +6,9 @@
 
 [Part 3 - Pep8 Exercise](wrc_python_style_guides_3_pep8_exercise.md)
 
-[Part 4 - Automatic Checking](wrc_python_style_guides_4_automatic_checking.md)
+[Part 4 - Automatic Style Checking](wrc_python_style_guides_4_automatic_checking.md)
+
+[Part 5 - Further Reading](wrc_python_style_guides_5_further_reading.md)
 
 ## PEP8
 
@@ -25,12 +27,14 @@ As you may know, Python uses indentation as a way of grouping statements that be
 
 This means that:
 
-[Code snippet 4](../../code_snippets/wrc_indents_ex_1.py)
+[Code snippet](../../code_snippets/wrc_indents_ex_1.py)
 ```python
+i = 0
+j = 0
 for i in range(5):
     j = i + 1
-    print (j)
-print (i)
+    print(j)
+print(i)
 ```
 Output:
 
@@ -43,13 +47,15 @@ Output:
 
 is different to:
 
-[Code snippet 5](../../code_snippets/wrc_indents_ex_2.py)
+[Code snippet](../../code_snippets/wrc_indents_ex_2.py)
 
 ```python
+i = 0
+j = 0
 for i in range(5):
     j = i + 1
-    print (j)
-    print (i)
+    print(j)
+    print(i)
 ```
 
 Output:
@@ -67,13 +73,15 @@ Output:
 
 And different to:
 
-[Code snippet 6](../../code_snippets/wrc_indents_ex_3.py)
+[Code snippet](../../code_snippets/wrc_indents_ex_3.py)
 
 ```python
+i = 0
+j = 0
 for i in range(5):
     j = i + 1
-print (j)
-print (i)
+print(j)
+print(i)
 ```
 
 Output:
@@ -90,17 +98,8 @@ Do you indent using spaces or tabs?
 
 
 Spaces are the recommended indentation method in Python. 
-The guideline is to use 4 spaces per indentation level - so 4 spaces on level one, 8 spaces on level 2 and so on.
-
-[Code snippet 7](../../code_snippets/wrc_indents_correct.py)
-
-```python
-def myloop():
-    for i in range(10):
-        j = i + 1
-        print (j)
-    print (i)
-```
+The guideline is to use 4 spaces per indentation level - so 4 spaces on level one, 
+8 spaces on level 2 and so on.
 
 
 Many people prefer the use of tabs rather than spaces to indent the code for many
@@ -124,7 +123,7 @@ if you are ever unsure what character exactly is being used
 e.g. in Pycharm by selecting `View`>`Active Editor`>`Show whitespace`.
 
 
-![Example of visible white space](../..//figures/wrc_show_indents.png)
+![Example of visible white space](../../figures/wrc_show_indents.png)
 
 
 #### Maximum Line Length
@@ -142,7 +141,7 @@ Long lines of code can be broken over multiple lines by wrapping expressions in 
 
 Use brackets `()` to wrap the following long lines of code.
 
-[Code snippet 8](../../code_snippets/wrc_long_code_line.py)
+[Code snippet](../../code_snippets/wrc_long_code_line.py)
 
 ```python
 my_first_long_variable = 5
@@ -158,7 +157,7 @@ if my_first_long_variable > 1 or my_second_long_variable > 2 or my_third_long_va
 Example solution:
 </summary>
 
-[Code snippet 9](../../code_snippets/wrc_long_code_line_brackets.py)
+[Code snippet](../../code_snippets/wrc_long_code_line_brackets.py)
 
 ```python
 my_first_long_variable = 5
@@ -183,7 +182,7 @@ You can also use a backslash \ to split code over multiple lines (but it is best
 Example solution:
 </summary>
 
-[Code snippet 10](../../code_snippets/wrc_long_code_line_backslash.py)
+[Code snippet](../../code_snippets/wrc_long_code_line_backslash.py)
 
 ```python
 my_first_long_variable = 5
@@ -192,7 +191,7 @@ my_third_long_variable = 1
 
 if my_first_long_variable > 1 \
         or my_second_long_variable > 2 \
-        or my_third_long_variable > 3):
+        or my_third_long_variable > 3:
     my_new_long_variable = my_first_long_variable \
                            + my_second_long_variable \
                            + my_third_long_variable
@@ -204,13 +203,13 @@ To separate a string over more than one line, you can enclose it in triple quote
 
 If you don't want to include the line break in the string, use a backslash \ inside quotes (single or triple quotes)
 
-[Code snippet 11](../../code_snippets/wrc_triple_quoted_string.py)
+[Code snippet](../../code_snippets/wrc_triple_quoted_string.py)
 
 ```python
-print ("""1. This string is broken up over
+print("""1. This string is broken up over
         more than one line""")
 
-print ("2. This string is all on \
+print("2. This string is all on \
 the same line")
 ```
 
@@ -231,7 +230,7 @@ You can use single blank lines inside functions to indicate logical sections.
 
 This would be a pep8 compliant layout (within a longer script):
 
-[Code snippet 12](../../code_snippets/wrc_layout.py)
+[Code snippet](../../code_snippets/wrc_layout.py)
 ```python
 
 
@@ -242,13 +241,13 @@ def function1(x, y):
     x += 1
     y += 1
     z = x + y
-    return (z)
+    return z
 
 
 def function2(y):
     print("Function 2 is running")
     y += 5
-    return(y)
+    return y
 
 
 ````
@@ -276,21 +275,25 @@ Which of the following Python statements is pep8 compliant?
 
 1. 
 ```python
+x = 1
 y = ( x / 2 ) + 1
 ```
 
 2.
 ```python
+x = 1
 y = ( x / 2) + 1
 ```
 
 3. 
 ```python
+x = 1
 y = (x / 2 ) + 1
 ```
 
 4. 
 ```python
+x = 1
 y = (x / 2) + 1
 ```
 
@@ -327,7 +330,7 @@ Other operators should have a space on either side (unless at the end of a line)
 
 This snippet has pep8 compliant whitespace.
 
-[Code snippet 13](../../code_snippets/wrc_whitespace.py)
+[Code snippet](../../code_snippets/wrc_whitespace.py)
 ```python
 x = 2
 y = x + 1
@@ -368,7 +371,7 @@ All imports should be at the top of the file, so they are easy to find.
 Wildcard imports e.g.
 
 ```python
-from matplotlib import *
+from string import *
 ```
 
 should be avoided because it's no longer clear which package provided each function.
@@ -376,8 +379,8 @@ should be avoided because it's no longer clear which package provided each funct
 
 There are many other pep8 recommendations, however it's worth remembering that complying with any of them is better than complying with none.
 
-None of these are strict rules, but following them where possible will improve the readability and resuability of your code.
+None of these are strict rules, but following them where possible will improve the readability and re-usability of your code.
 
-[Next Lesson: Pep8 Exercise](wrc_python_style_guides_3_pep8_exercise.md)
+[Part 3: Pep8 Exercise](wrc_python_style_guides_3_pep8_exercise.md)
 
 *Lesson adapted from: https://github.com/carpentries-incubator/python-intermediate-development/blob/gh-pages/_episodes/15-coding-conventions.md*

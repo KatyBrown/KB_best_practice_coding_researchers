@@ -7,7 +7,7 @@ b = b + [1]
 b += [2, 3]
 
 def c():
-    return ([1, 2, 3])
+    return [1, 2, 3]
 
 print(a)
 print (b)
