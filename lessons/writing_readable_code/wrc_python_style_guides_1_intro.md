@@ -84,12 +84,15 @@ Output:
 	number of entries = 12
 	number of winners= 5
 	% success = 0.42
+&nbsp;
 
 
 <details>
     <summary>
         Solution
     </summary>
+&nbsp;
+
 
 Code snippets 1 and 2 produce exactly the same output, but it is much easier to read snippet 2 and to understand what the programmer was trying to do.
 
@@ -98,6 +101,7 @@ Code snippets 1 and 2 produce exactly the same output, but it is much easier to 
 * Bigger indents in snippet 2
 * All the variables used inside the function are provided as arguments
 * Strings are formatted more clearly
+&nbsp;
 
 
 </details>
@@ -152,7 +156,9 @@ Put the following in order of importance
 - Code within a module or function should have a consistent style
 - Code should be consistent with a style guide
 - Code within a project should use a consistent style 
-
+&nbsp;
+  
+  
 <details>
     <summary>
         Solution
@@ -167,6 +173,8 @@ Put the following in order of importance
 3. Code should be consistent with a style guide 
 
 </details>
+&nbsp;
+
 
 Different groups use different style guides and project or group specific guidelines should take precedent over the pep8 conventions.
 

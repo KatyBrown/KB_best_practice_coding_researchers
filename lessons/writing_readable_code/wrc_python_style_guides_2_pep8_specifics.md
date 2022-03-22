@@ -151,6 +151,8 @@ my_third_long_variable = 1
 if my_first_long_variable > 1 or my_second_long_variable > 2 or my_third_long_variable > 3:
     my_new_long_variable = my_first_long_variable + my_second_long_variable + my_third_long_variable
 ```
+&nbsp;
+
 
 <details>
 <summary>
@@ -174,8 +176,12 @@ if (my_first_long_variable > 1
 
 ```
 </details>
+&nbsp;
+
 
 You can also use a backslash \ to split code over multiple lines (but it is best to avoid this if you can).
+&nbsp;
+
 
 <details>
 <summary>
@@ -183,6 +189,9 @@ Example solution:
 </summary>
 
 [Code snippet](../../code_snippets/wrc_long_code_line_backslash.py)
+
+&nbsp;
+
 
 ```python
 my_first_long_variable = 5
@@ -197,6 +206,7 @@ if my_first_long_variable > 1 \
                            + my_third_long_variable
 ```
 </details>
+&nbsp;
 
 
 To separate a string over more than one line, you can enclose it in triple quotes - `"""string"""`.
