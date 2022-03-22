@@ -123,12 +123,15 @@ if you are ever unsure what character exactly is being used
 
 e.g. in Pycharm by selecting `View`>`Active Editor`>`Show whitespace`.
 
+
 ![Example of visible white space](../..//figures/wrc_show_indents.png)
+
 
 #### Maximum Line Length
 All lines should be up to 80 characters long, for lines containing comments or docstrings the line length limit should be 73.
 
 You can configure your IDE to indicate the maximum line length
+
 ![Example with long line indicator](../../figures/wrc_long_lines.png)
 
 
@@ -147,7 +150,7 @@ my_second_long_variable = 3
 my_third_long_variable = 1
 
 if my_first_long_variable > 1 or my_second_long_variable > 2 or my_third_long_variable > 3:
-    my_new_long_variable = my_first_long_variable + my_second_long_variable + my_third_
+    my_new_long_variable = my_first_long_variable + my_second_long_variable + my_third_long_variable
 ```
 
 <details>
@@ -204,10 +207,10 @@ If you don't want to include the line break in the string, use a backslash \ ins
 [Code snippet 11](../../code_snippets/wrc_triple_quoted_string.py)
 
 ```python
-print ("""1. This code is broken up over
+print ("""1. This string is broken up over
         more than one line""")
 
-print ("2. This code is all on \
+print ("2. This string is all on \
 the same line")
 ```
 
@@ -224,9 +227,9 @@ Function and class definitions should be surrounded with two blank lines.
 
 Method definitions inside a class should be surrounded by single blank lines.
 
-You can use single blank lines in functions to indicate logical sections.
+You can use single blank lines inside functions to indicate logical sections.
 
-This would be a pep8 compliant layout
+This would be a pep8 compliant layout:
 
 [Code snippet 12](../../code_snippets/wrc_layout.py)
 ```python
@@ -267,6 +270,7 @@ Which of the following sentences is correctly punctuated
 4. `Style guides (such as pep8) are important.`
 
 Which of the following Python statements is correctly formatted?
+
 1. 
 ```python
 y = ( x / 2 ) + 1
@@ -287,7 +291,7 @@ y = (x / 2 ) + 1
 y = (x / 2) + 1
 ```
 
-* Commas , and colons : should have no spaces before, but one space after
+* Commas `,` and colons `:` should have no spaces before, but one space after
 
 1. `Style guides: annoying, but useful`
 
@@ -337,7 +341,7 @@ In many editors you can make whitespace visible to check this
 e.g. in Pycharm by selecting `View`>`Active Editor`>`Show whitespace`.
 
 #### Naming conventions
-The main thing to think about when naming a variable or a function is whether the name is useful to you. Many of the example functions in this tutorial have terrible names, it is better to use a descriptive name than x, y, my_var, my_function, function1 etc.
+The main thing to think about when naming a variable or a function is whether the name is useful to you. Many of the example functions in this tutorial have terrible names, it is better to use a descriptive name than `x`, `y`, `my_var`, `function1` etc.
 
 There are various conventions used for naming variables and functions.
 * `lowercase`
@@ -348,11 +352,22 @@ There are various conventions used for naming variables and functions.
 * `mixedCase`
 * `Capitalised_Words_With_Underscores`
 
-Under the pep8 guidelines all **function** and **variable** names should use the `lower_case_with_underscores convention`. 
+Under the pep8 guidelines all **function** and **variable** names should use the `lower_case_with_underscores` convention. 
 
 **Class** names should use the `CapitalisedWords` convention.
 
-Module names should use the `lowercase` convention.
+**Module** names should use the `lowercase` convention.
+
+```python
+class IM_A_DOG:
+
+    kind = 'canine'         # class variable shared by all instances
+
+    def __init__(self, name):
+        self.name = name 
+
+
+```
 
 #### Imports
 All imports should be at the top of the file, so they are easy to find.
