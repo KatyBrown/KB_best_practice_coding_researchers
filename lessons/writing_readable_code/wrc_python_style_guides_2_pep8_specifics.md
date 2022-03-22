@@ -229,10 +229,12 @@ Method definitions inside a class should be surrounded by single blank lines.
 
 You can use single blank lines inside functions to indicate logical sections.
 
-This would be a pep8 compliant layout:
+This would be a pep8 compliant layout (within a longer script):
 
 [Code snippet 12](../../code_snippets/wrc_layout.py)
 ```python
+
+
 def function1(x, y):
     print("This is function 1") 
     print("Function 1 is running")
@@ -260,7 +262,7 @@ The pep8 white space guidelines are fairly similar to how punctuation is used wh
 
 #### 🗳️ Class Poll
 
-Which of the following sentences is correctly punctuated
+Which of the following sentences is correctly punctuated?
 
 1. `Style guides (  such as pep8) are important.`
 
@@ -270,14 +272,14 @@ Which of the following sentences is correctly punctuated
 
 4. `Style guides (such as pep8) are important.`
 
-Which of the following Python statements is correctly formatted?
+Which of the following Python statements is pep8 compliant?
 
 1. 
 ```python
 y = ( x / 2 ) + 1
 ```
 
-2
+2.
 ```python
 y = ( x / 2) + 1
 ```
@@ -292,37 +294,38 @@ y = (x / 2 ) + 1
 y = (x / 2) + 1
 ```
 
-* Commas `,` and colons `:` should have no spaces before, but one space after
+* Commas `,` and colons `:` should have no spaces before, but one space after the character.
 
-1. `Style guides: annoying, but useful`
+With text:
 
-2. `Style guides : annoying , but useful`
+1. `Style guides: annoying, but useful` ✔️
 
-3. `Style guides :annoying ,but useful`
+2. `Style guides : annoying , but useful`❌
 
+3. `Style guides :annoying ,but useful`❌
 
-1. 
-
+In Python:
+1.  ✔️
 ```python
 def myfun(x, y):
     print(y, x)
 ```
 
-2.
+2. ❌
 ```python
 def myfun(x , y) :
     print(y , x)
 ```
 
-3. 
+3. ❌
 ```python
 def myfun(x ,y) :
     print (y ,x)
 ```
 
-Other operators should have a space on either side (unless at the end of a line)
+Other operators should have a space on either side (unless at the end of a line).
 
-This snippet has pep8 compliant whitespace
+This snippet has pep8 compliant whitespace.
 
 [Code snippet 13](../../code_snippets/wrc_whitespace.py)
 ```python

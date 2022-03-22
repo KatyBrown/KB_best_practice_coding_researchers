@@ -15,7 +15,7 @@ consistent.
 
 Corrected code is available as wrc_pep8_exercise_corrected.py but your
 answer may differ. All of the changes made are listed in
-wrc_pep8_exercise_corrected.py
+wrc_pep8_exercise_corrected_annotated.py
 """
 class FLUFFYDOG:
     """
