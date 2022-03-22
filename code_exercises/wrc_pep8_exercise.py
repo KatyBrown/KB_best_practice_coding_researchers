@@ -9,10 +9,13 @@ The result of running each function is printed to the screen.
 
 The code works but it contains a number of pep8, style and consistency issues.
 Try to find and correct these issues. Don't worry about improving the comments
-or docstrings, they are just to explain how the code works.
+or docstrings, they are just to explain how the code works. For this exercise
+there's also no need to improve how the code functions, except to make it
+consistent.
 
 Corrected code is available as wrc_pep8_exercise_corrected.py but your
-answer may differ.
+answer may differ. All of the changes made are listed in
+wrc_pep8_exercise_corrected.py
 """
 class FLUFFYDOG:
     """
@@ -75,7 +78,7 @@ def FINDPUNCT(dogname):
     else:
      print ("There is punctuation in the name " + dogname)
 
-ddd=FLUFFYDOG('Mr Bones', 'Poodle')
+ddd=FLUFFYDOG('Mr Bones' , 'poodle')
 chname(ddd)
 from string import *
 ws(ddd)
