@@ -3,7 +3,6 @@
 
 ### Code Organisation
 &nbsp;
-
 <details>
 <summary> Python Style Guides</summary>
 &nbsp;
