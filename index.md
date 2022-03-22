@@ -4,9 +4,9 @@
 ### Code Organisation
 &nbsp;
 
-
 <details>
 <summary> Python Style Guides</summary>
+&nbsp;
 
 [Part 1 - Introduction](lessons/writing_readable_code/wrc_python_style_guides_1_intro.md)
 
@@ -19,7 +19,6 @@
 [Part 5 - Further Reading](lessons/writing_readable_code/wrc_python_style_guides_5_further_reading.md)
 </details>
 &nbsp;
-
 
 ### Writing Useful Documentation
 

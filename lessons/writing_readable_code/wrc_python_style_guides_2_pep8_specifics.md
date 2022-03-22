@@ -190,9 +190,6 @@ Example solution:
 
 [Code snippet](../../code_snippets/wrc_long_code_line_backslash.py)
 
-&nbsp;
-
-
 ```python
 my_first_long_variable = 5
 my_second_long_variable = 3
