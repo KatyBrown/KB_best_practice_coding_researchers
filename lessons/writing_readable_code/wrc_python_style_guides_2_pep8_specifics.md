@@ -257,7 +257,7 @@ def function2(y):
 
 The pep8 white space guidelines are fairly similar to how punctuation is used when writing text.
 
-* There shouldn't be spaces between brackets `()` and the text inside the brackets.
+There shouldn't be spaces between brackets `()` and the text inside the brackets.
 
 #### 🗳️ Class Poll
 
@@ -346,6 +346,8 @@ There shouldn't be whitespace (spaces or tabs) on the end of a line or on blank 
 
 In many editors you can make whitespace visible to check this
 e.g. in Pycharm by selecting `View`>`Active Editor`>`Show whitespace`.
+
+In many cases your Python editor will have an option to automatically remove trailing whitespace.
 
 #### Naming conventions
 The main thing to think about when naming a variable or a function is whether the name is useful to you. Many of the example functions in this tutorial have terrible names, it is better to use a descriptive name than `x`, `y`, `my_var`, `function1` etc.

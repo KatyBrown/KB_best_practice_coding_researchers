@@ -12,7 +12,7 @@
 
 ## Automatic Style Checking
 
-So far, we've been checking code for pep8 compliance manually, by examining the code ourselves. However, tools exist to automate at least part of these checks.
+So far, we've been checking code for pep8 compliance manually, by examining the code ourselves. However, tools exist to automate at least some of these checks.
 
 ### pycodestyle
 
@@ -54,7 +54,7 @@ These tools have many of the same benefits and limitations as using pycodecheck.
 ### IDE Style Checkers
 Many Python development environments include tools to check code for compliance with a style guide.
 
-In PyCharm, pep8 errors are found by default when running `Code --> Inspect Code...`.
+In PyCharm, pep8 errors are found by default when running `Code --> Inspect Code...`. Pep8 errors will also show up in the "Problems" tab at the bottom of the screen.
 
 
 ![pep8 coding style violation](../../figures/wrc_pep8_1.PNG)
