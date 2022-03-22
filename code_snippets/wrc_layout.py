@@ -11,4 +11,5 @@ def function1(x, y):
 def function2(y):
     print("Function 2 is running")
     y += 5
+    return(y)
 

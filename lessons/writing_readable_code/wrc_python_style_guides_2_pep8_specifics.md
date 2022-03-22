@@ -246,6 +246,7 @@ def function1(x, y):
 def function2(y):
     print("Function 2 is running")
     y += 5
+    return(y)
 
 
 ````
@@ -357,17 +358,6 @@ Under the pep8 guidelines all **function** and **variable** names should use the
 **Class** names should use the `CapitalisedWords` convention.
 
 **Module** names should use the `lowercase` convention.
-
-```python
-class IM_A_DOG:
-
-    kind = 'canine'         # class variable shared by all instances
-
-    def __init__(self, name):
-        self.name = name 
-
-
-```
 
 #### Imports
 All imports should be at the top of the file, so they are easy to find.
